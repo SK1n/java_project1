@@ -3,15 +3,10 @@ import java.awt.*;
 import javax.swing.JPanel;
 
 public class GraphPanel extends JPanel {
-    private int ww;
-    private int hh;
 
     public GraphPanel() {
         setBackground(Color.gray);
         setPreferredSize(new Dimension(400, 600));
-        ww = this.getPreferredSize().width;
-        hh = this.getPreferredSize().height;
-
     }
 
     public void paint(Graphics g) {
